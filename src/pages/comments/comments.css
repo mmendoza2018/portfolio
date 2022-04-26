@@ -1,0 +1,43 @@
+.container-general-comments {
+  height: 80vh;
+  overflow-y: auto;
+  padding: .3rem 0;
+}
+.container-general-comments::-webkit-scrollbar {
+  display: none;
+}
+.container-comments {
+  display:  grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap:.7rem;
+  padding: .2rem;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container-comments {
+    grid-template-columns: repeat(2, 1fr);
+    gap:.5rem;
+  }
+  .container-general-comments {
+    height: 40vh;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .container-comments {
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+    grid-template-columns: none;
+    grid-auto-columns: 400px;
+    gap:.5rem;
+    overflow: hidden;
+  }
+  .container-general-comments {
+    height: auto;
+    width: 100%;
+  }
+  .item-comments {
+    min-width: 30%;
+  }
+}

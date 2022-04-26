@@ -1,0 +1,21 @@
+.container-about {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+  gap: 0;
+}
+.item-about {
+  color: var(--grey-primary);
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container-about {
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem .5rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}

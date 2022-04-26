@@ -1,0 +1,29 @@
+.container-footer {
+  position: fixed;
+  bottom: 0;
+  background: rgba(196, 196, 196, 0.566);
+  margin-bottom: 1.5vh;
+  width: 95vw;  
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: .6rem 0;
+  /* backdrop-filter: blur(15px); */
+}
+
+.item-footer a {
+  display: flex;
+  flex-direction: column;
+  text-align: inherit;
+  color: var(--purple-primary);
+  text-decoration: none;
+}
+
+.item-footer a small {
+  display: block;
+  text-align: inherit;
+}

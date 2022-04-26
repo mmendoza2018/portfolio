@@ -1,0 +1,6 @@
+h2 {
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem 0 4rem 0;
+}

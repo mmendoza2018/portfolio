@@ -1,0 +1,14 @@
+.item-portfolio  {
+  margin: .5rem;
+}
+.hola {
+  background: linear-gradient(90deg, rgba(204,68,204,1) 1%, rgba(184,44,203,1) 14%, rgba(1,95,251,1) 57%, rgba(21,18,228,1) 100%);
+  border-radius: 15px;
+  padding: .2rem;
+}
+.item-portfolio img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  aspect-ratio: 16 / 9;
+}

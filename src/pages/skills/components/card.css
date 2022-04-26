@@ -1,0 +1,14 @@
+.item-skills figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.item-skills figure h4 {
+  margin: .5rem;
+  color: var(--grey-primary);
+}
+.item-skills figure img{
+  width: 100%;
+  border: 1px solid white;
+}

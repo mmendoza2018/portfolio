@@ -1,0 +1,50 @@
+/* 
+-----------------------------------
+Configuracion fondo de pantalla
+-----------------------------------
+*/
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  width: 0.5px;
+  height: 0.5px;
+}
+.dot-primary-sm {
+  box-shadow: 1px 1px 90px 90px var(--pink-primary);
+}
+.dot-primary-lg {
+  box-shadow: 1px 1px 100px 150px var(--pink-secondary);
+}
+.dot-secondary-lg {
+  box-shadow: 1px 1px 100px 150px var(--blue-primary);
+}
+.dot-secondary-sm {
+  box-shadow: 1px 1px 90px 90px var(--blue-primary);
+}
+.dot-1 {
+  top: 100%;
+}
+.dot-2 {
+  top: 0;
+}
+.dot-3 {
+  top: 100%;
+  left: 100%;
+}
+.dot-4 {
+  top: 60%;
+  left: 20%;
+}
+.dot-5 {
+  top: 30%;
+  left: 80%;
+}
+.dot-6 {
+  box-shadow: 1px 1px 150px 150px #cc44cc82;
+  top: 20%;
+  left: 40%;
+}
+.dot-7 {
+  top: 110%;
+  left: 50%;
+}
