@@ -1,0 +1,71 @@
+{
+  "data" : [
+    {
+      "imagen":"conovatec.jpg",
+      "titulo":"React Developer CONOVATEC",
+      "lista": [
+        "Maquetación de las interfaces asignadas.",
+        "implementación de responsive design.",
+        "Manejo de git, git hub",
+        "implementación del concepto movile first.",
+        "Aplicación de la metodologia Scrum."
+      ]
+    },
+    {
+      "imagen":"wordpress1.png",
+      "titulo":"Creacion de plantillas Wordpres",
+      "lista": [
+        " Implementación de plantillas asignadas.",
+        "Customización de plantillas.",
+        "despliegue de los modulos en word."
+      ]
+    },
+    {
+      "imagen":"dplace10.png",
+      "titulo":"Front-end developer DPLACE",
+      "lista": [
+        "Diseño y maquetación de las interfaces asignadas.",
+        "implementación de responsive design.",
+        "implementación del concepto movile first.",
+        "Manejo de git, bit Bucket y jira.",
+        "Aplicación de la metodologia Scrum."
+      ]
+    },
+    {
+      "imagen":"stripe2.PNG",
+      "titulo":"Integracion de pasarela de pagos con Stripe",
+      "lista": [
+        "Creación de productos.",
+        "Obtención del token de verificacion con Stripe.",
+        "Implementación de script para la conexion con la API de stripe ads sad sadsa dd sa.",
+        "Renderizacion de productos en la página.",
+        "envio de datos a stripe para la realización del pago."
+      ]
+    },
+    {
+      "imagen":"ongDetalle3.PNG",
+      "titulo":"Sistema ERP, gestión de equipos y usuarios",
+      "lista": [
+        "Envio de documentos adjuntos por correo.",
+        "Manejo de roles autogestionable.",
+        "Seguimiento de documentación de los usuarios.",
+        "Reconocimiento QR de los equipos.",
+        "Consola de alertas.",
+        "Manejo de fechas respecto a vencimiento de equipos."
+      ]
+    },
+    {
+      "imagen":"emp3.PNG",
+      "titulo":"Sistema ERP, gestion de trabajadores y usuarios",
+      "lista": [
+        "Control de documentación de los trabajadores.",
+        "Manejo de roles autogestionable.",
+        "Seguimiento de documentación de los usuarios.",
+        "Control logistico(ingresos, salidas, tranferencias).",
+        "Manejo de productos del inventario autogestionable.",
+        "Control de prestamos.",
+        "Control de movimientos."
+      ]
+    }
+  ]
+}

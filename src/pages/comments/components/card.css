@@ -20,7 +20,7 @@
   grid-column: 4 / 6;
   grid-row: 1 / 2;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .item-comments .subitem-comments:nth-child(3) {
   grid-column: 1 / 6;

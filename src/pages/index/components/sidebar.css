@@ -1,0 +1,27 @@
+.sidebar-container {
+  position: fixed;
+  width: 50px;
+  list-style: none;
+  left: 2.5vw;
+  top: 50%;
+  left: 0;
+  transform: translate(2.5vw,-50%);
+  border: 1px solid rgba(255, 255, 255, 0.472);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+  border-radius: 10px;
+  padding-left: 0;
+  padding: .5rem 0;
+}
+.sidebar-container li {
+  margin: 0 auto;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .sidebar-container {
+    display: flex;
+  }
+}

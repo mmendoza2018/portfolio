@@ -6,7 +6,9 @@ import Article from "./components/Article";
 
 const About = () => {
   return (
-    <section className="container-about">
+    <section id="about" className="container-general-about">
+          <h2>Conoceme</h2>
+    <div className="container-about" >
       <div className="item-about">
         <h3>Mi Resumen</h3>
         <Article>
@@ -50,14 +52,6 @@ const About = () => {
           </ul>
         </Article>
         <Article>
-          <h5>front-End Developer</h5>
-          <h6>FreeLance</h6>
-          <ul>
-            <li>Maquetacion de plantillas para Wordpress.</li>
-            <li>Implementacion de scripts.</li>
-          </ul>
-        </Article>
-        <Article>
           <h5>full-Stack Developer</h5>
           <h6>Dplace, Santiago Chile</h6>
           <ul>
@@ -67,6 +61,7 @@ const About = () => {
           </ul>
         </Article>
       </div>
+    </div>
     </section>
   );
 };

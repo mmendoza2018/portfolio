@@ -4,6 +4,11 @@
   justify-content: center;
   gap: 0;
 }
+.container-general-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .item-about {
   color: var(--grey-primary);
 }

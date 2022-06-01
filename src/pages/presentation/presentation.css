@@ -31,22 +31,22 @@
 }
 @keyframes fotoGiratoria {
   0% {
-    box-shadow: 0px 0px 50px 1px var(--white);
-    -webkit-box-shadow: 0px 0px 76px 1px var(--white);
-    -moz-box-shadow: 0px 0px 76px 1px var(--white);
-    background-color: var(--white);
+    box-shadow: 0px 0px 50px 1px var(rgba(255, 255, 255, 0.157));
+    -webkit-box-shadow: 0px 0px 76px 1px var(rgba(255, 255, 255, 0.157));
+    -moz-box-shadow: 0px 0px 76px 1px var(rgba(255, 255, 255, 0.157));
+    background-color: var(rgba(255, 255, 255, 0.157));
   }
   50% {
-    box-shadow: 0px 0px 76px 1px var(--pink-primary);
-    -webkit-box-shadow: 0px 0px 76px 1px var(--pink-primary);
-    -moz-box-shadow: 0px 0px 76px 1px var(--pink-primary);
-    background-color: var(--pink-primary);
+    box-shadow: 0px 0px 76px 1px var(rgba(255, 255, 255, 0.502));
+    -webkit-box-shadow: 0px 0px 76px 1px var(rgb(255, 255, 255));
+    -moz-box-shadow: 0px 0px 76px 1px var(rgba(255, 255, 255, 0.502));
+    background-color: var(rgba(255, 255, 255, 0.502));
   }
   100% {
-    box-shadow: 0px 0px 76px 1px var(--blue-primary);
-    -webkit-box-shadow: 0px 0px 76px 1px var(--blue-primary);
-    -moz-box-shadow: 0px 0px 76px 1px var(--blue-primary);
-    background-color: var(--blue-primary);
+    box-shadow: 0px 0px 76px 1px var(white);
+    -webkit-box-shadow: 0px 0px 76px 1px var(white);
+    -moz-box-shadow: 0px 0px 76px 1px var(white);
+    background-color: var(white);
   }
 }
 .item-presentation {

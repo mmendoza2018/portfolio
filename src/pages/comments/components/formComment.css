@@ -1,0 +1,74 @@
+.container-form-comment {
+}
+
+/* form */
+.container-form-comment input,
+.container-form-comment textarea {
+  width: 100%;
+  margin: .3rem 0;
+  padding: 0;
+  background: rgba(196, 196, 196, 0.237);
+  outline: none;
+  border: none;
+  color: var(--grey-primary);
+}
+.container-form-comment input {
+  height: 1.8rem;
+}
+.container-form-comment label {
+  color: var(--white);
+}
+.container-form-comment textarea {
+  height: 3rem;
+}
+ /* start points */
+
+ .container-starts {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container-starts input {
+  display: none;
+}
+.container-starts label {
+  width: 8vw;
+  height: 7vw;
+  background-color: rgba(97, 101, 88, 0.845);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.container-starts {
+  transform: rotate(-180deg);
+}
+.container-starts label {
+  transform: rotate(-180deg);
+}
+.container-starts input:checked  ~ label,
+.container-starts input:hover  ~ label{
+  background-color: rgb(216, 216, 17);
+}
+.btn-form-comments {
+  display: flex;
+  justify-content: flex-end;
+}
+/* end form */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container-starts label {
+    width: 5vw;
+    height: 4vw;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .container-starts label {
+    width: 5vw;
+    height: 4vw;
+  }
+}

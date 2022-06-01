@@ -1,0 +1,65 @@
+.container-modal {
+  background-color: rgba(0, 0, 0, 0.293);
+  width: 95vw;
+  height: 97vh;
+  border-radius: 21px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+.container-modal .modal-content {
+  width: 100%;
+  height: auto;
+  background-color: var(--purple-primary);
+  position: relative;
+  z-index: 999;
+  border-radius: 10px;
+  border-left-width: 3px;
+  border-left-color: var(--pink-primary);
+  border-left-style: solid;
+  border-bottom-color: var(--blue-secondary);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  padding: 0.5rem 1rem;
+}
+.show-modal {
+  opacity: 1;
+  z-index: 99;
+}
+.modal-header {
+  display: flex;
+  justify-content: end;
+}
+.modal-header svg {
+  margin: 1rem;
+  cursor: pointer;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container-modal .modal-content {
+    width: 30%;
+  }
+  .container-modal .modal-content.modal-lg {
+    width: 70%;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 992px) { 
+  .container-modal .modal-content.modal-lg {
+    width: 70%;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 1200px) { 
+  .container-modal .modal-content.modal-lg {
+    width: 60%;
+  }
+}

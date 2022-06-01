@@ -3,6 +3,11 @@
   display: grid;
   grid-template-columns: repeat(1,1fr);
 }
+.container-general-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 

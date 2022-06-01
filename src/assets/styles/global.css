@@ -59,7 +59,7 @@ html {
 .container-general {
   width: 95vw;
   height: 97vh;
-  background: rgba(196, 196, 196, 0.17);
+  background: rgba(196, 196, 196, 0.10);
   /* backdrop-filter: blur(15px); */
   border-radius: 21px;
   position: absolute;
@@ -67,6 +67,7 @@ html {
   top: 50%;
   transform: translate(-50%, -50%);
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
 .container-general::-webkit-scrollbar {
   width: 5px;
@@ -90,9 +91,9 @@ Configuracion inicial
 .main-general {
   position: relative;
   padding: 1rem;
+  padding-left: 1rem;
   height: auto;
 }
-
 div[data-tilt="true"] {
   width: 100% !important;
   padding: 0 !important;
@@ -106,4 +107,13 @@ h1, h2, h3, h4, h5 {
 p, small, li, ul, b, span,label,input {
   font-family: 'Poppins-Regular';
 }
+section {
+  min-height: 97vh;
+}
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .main-general {
+    padding-left: 90px;
+  }
+}

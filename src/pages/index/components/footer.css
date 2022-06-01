@@ -1,17 +1,18 @@
 .container-footer {
   position: fixed;
-  bottom: 0;
-  background: rgba(196, 196, 196, 0.566);
+  background: var(--grey-primary);
   margin-bottom: 1.5vh;
   width: 95vw;  
-  bottom: 0;
+  bottom: -50%;
   left: 50%;
   transform: translate(-50%,0);
-  border-radius: 15px;
+  border-radius: 21px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: .6rem 0;
+  opacity: 0;
+  transition: bottom .5s ease-in-out, opacity 2s ease-in-out;
   /* backdrop-filter: blur(15px); */
 }
 
@@ -26,4 +27,13 @@
 .item-footer a small {
   display: block;
   text-align: inherit;
+}
+.show-footer {
+  bottom: 0;
+  opacity: 1;
+}
+@media (min-width: 768px) { 
+  .container-footer {
+    display: none;
+  }
 }

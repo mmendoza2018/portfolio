@@ -1,16 +1,39 @@
 .container-general-comments {
   height: 80vh;
-  overflow-y: auto;
+  overflow-y: hidden;
   padding: .3rem 0;
 }
 .container-general-comments::-webkit-scrollbar {
   display: none;
 }
 .container-comments {
+  position: relative;
   display:  grid;
   grid-template-columns: repeat(1, 1fr);
+  height: 65%;
+  overflow-y: auto;
   gap:.7rem;
   padding: .2rem;
+}
+.btn-comments {
+  position: sticky;
+  width: 120px;
+  bottom: 0;
+  left: 90%;
+  background: rgba(255, 255, 255, 0.19);
+  color: var(--white);
+  border-radius: 10px;
+  appearance: initial;
+  border: none;
+  padding: 0.2rem 0.5rem;
+  font-family: "Poppins-Bold";
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.btn-comments svg {
+  padding-right: .5rem;
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
@@ -36,6 +59,9 @@
   .container-general-comments {
     height: auto;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .item-comments {
     min-width: 30%;

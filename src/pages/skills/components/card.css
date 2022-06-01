@@ -3,12 +3,17 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+
 }
+
 .item-skills figure h4 {
   margin: .5rem;
   color: var(--grey-primary);
 }
 .item-skills figure img{
-  width: 100%;
-  border: 1px solid white;
+  width: 4em;
+  height: 64px;
+  /* border: 1px solid white; */
 }

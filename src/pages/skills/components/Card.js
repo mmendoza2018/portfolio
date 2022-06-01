@@ -9,7 +9,11 @@ const Card = ({srcIcon, altImg, description,bgColor}) => {
   return (
       <div className="item-skills" >
         <figure>
-          <FontAwesomeIcon icon={srcIcon} color={bgColor} size='4x'/>
+        {
+          bgColor!==null 
+          ? <FontAwesomeIcon icon={srcIcon} color={bgColor} size='4x'/> 
+          : <img src={srcIcon} alt={altImg} />
+        }
           <h4>{`${description}`}</h4>
         </figure>
       </div>
