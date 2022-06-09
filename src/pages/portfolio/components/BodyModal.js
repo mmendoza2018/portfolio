@@ -2,10 +2,10 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import data from '../../../data/descriptionModal.json';
 import './bodyModal.css';
+import 'boxicons'
+
 
 const BodyModal = ({listSkills,idBody}) => {
-  console.log('data', listSkills[idBody])
-  console.log("img",'../../../assets/img/conovatec.jpg' === data.data[idBody].imagen);
   let img = require('../../../assets/img/'+data.data[idBody].imagen);
   return (
     <div className='container-body-modal'>
@@ -18,13 +18,16 @@ const BodyModal = ({listSkills,idBody}) => {
        {data.data[idBody].lista.map((e,index) => <li key={index}>🔹{e}</li> )}
       </ul>
       <div className='list-icon'>
-      {listSkills[idBody].map(e => {
-       return <div className='item-icon'>
+      {listSkills[idBody].map((e,index)=> {
+       return <div key={index} className='item-icon'>
       <span>{e.descripcion}</span>
-      <FontAwesomeIcon icon={e.icon} color={'white'} size='lg'/> 
+      {e.boxIcon 
+      ? <box-icon type="logo" size='sm' color='white' name={e.icon}></box-icon> 
+      : <FontAwesomeIcon icon={e.icon} color={'white'} size='lg'/> }
       </div>
       })}
       </div>
+      
       </div>
     </div>
   )

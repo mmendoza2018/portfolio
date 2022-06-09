@@ -1,0 +1,32 @@
+.container-alert {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  height: auto;
+  background-color: var(--purple-primary);
+  border-radius: 10px;
+  z-index: 9999;
+  top: 1%;
+  left: 1%;
+  padding: .5rem;
+  color: var(--white);
+  opacity: 0;
+}
+.container-alert.show {
+  opacity: 1;
+ }
+.description-alert {
+  font-size: .8rem;
+  color: var(--grey-primary);
+}
+.title-alert {
+  margin: 0;
+  font-weight: 900;
+}
+.container-alert .item-alert {
+
+}

@@ -1,4 +1,4 @@
-import "./App.css";
+//import "./App.css";
 import './assets/styles/global.css';
 import Index from "./pages/index/Index.js";
 

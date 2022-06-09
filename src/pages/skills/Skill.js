@@ -4,6 +4,7 @@ import { faCss3,faHtml5,faReact,faBootstrap,faGithub,faPhp } from "@fortawesome/
 import Card from './components/Card'
 import firebase from '../../assets/img/firebase.svg';
 import jest from '../../assets/img/jest.svg';
+import tailwind from '../../assets/img/tailwind.svg';
 import './skill.css';
 
 const Skill = () => {
@@ -16,6 +17,7 @@ const Skill = () => {
     <Card srcIcon={faCss3} bgColor={'#2965f1'} description={'Css'}/>
     <Card srcIcon={faHtml5} bgColor={'#e34f26'} description={'Html5'}/> 
     <Card srcIcon={faBootstrap} bgColor={'#6610f2'} description={'Bootstrap'}/>
+    <Card srcIcon={tailwind} bgColor={null} description={'Tailwind'}/>
     <Card srcIcon={faGithub} bgColor={'#333'} description={'Git/GitHub'}/>
     <Card srcIcon={firebase} bgColor={null} description={'Firebase'}/>
     <Card srcIcon={jest} bgColor={null} description={'Jest'}/>

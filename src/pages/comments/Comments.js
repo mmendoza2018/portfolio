@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import getData from '../../utils/getData.js';
 import db from '../../utils/firebaseConfig';
-import addData from '../../utils/PostData.js';
 import './comments.css';
 import Card from './components/Card.js';
 import scrollX from '../../utils/scrollX.js';

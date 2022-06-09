@@ -29,13 +29,16 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-/* .item-body-modal svg {
-  padding-left: 1rem;
-} */
 .list-icon .item-icon{
   position: relative;
   display: inline;
   padding-right: .2rem;
+}
+.list-icon{
+  padding-left: .8rem;
+}
+.item-icon box-icon{
+  vertical-align: -.3rem;
 }
 .item-icon span {
   position: absolute;
@@ -53,13 +56,6 @@
   opacity: 1;
 }
 
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { 
-  .container-starts label {
-    width: 5vw;
-    height: 4vw;
-  }
-} */
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   .container-body-modal {
@@ -70,5 +66,8 @@
   }
   .item-body-modal:nth-child(2) {
     min-width: 60%;
+  }
+  .list-icon{
+    padding-left: 1rem;
   }
 }
