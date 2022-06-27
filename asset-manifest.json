@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fcae2705.css",
-    "main.js": "/portfolio/static/js/main.60c6e0df.js",
+    "main.css": "/portfolio/static/css/main.6d250153.css",
+    "main.js": "/portfolio/static/js/main.d473af40.js",
     "static/js/787.ae0d8d37.chunk.js": "/portfolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/applicant_1052589479_CV_1046912623.pdf": "/portfolio/static/media/applicant_1052589479_CV_1046912623.148ec28c566e399a3b10.pdf",
+    "static/media/CV-2022.pdf": "/portfolio/static/media/CV-2022.af69f6e5ce52cdc83daa.pdf",
     "static/media/toyota2.PNG": "/portfolio/static/media/toyota2.5c0d196b43543411e65c.PNG",
     "static/media/toyota6.PNG": "/portfolio/static/media/toyota6.3d34ac09b6755293acba.PNG",
     "static/media/cr2.PNG": "/portfolio/static/media/cr2.77e235675f84f8cf37dc.PNG",
@@ -52,12 +53,12 @@
     "static/media/tailwind.svg": "/portfolio/static/media/tailwind.91bbceb2f699f8793419eb792ad01542.svg",
     "static/media/firebase.svg": "/portfolio/static/media/firebase.a5244d305a614cd7e4b4aba169ec8820.svg",
     "index.html": "/portfolio/index.html",
-    "main.fcae2705.css.map": "/portfolio/static/css/main.fcae2705.css.map",
-    "main.60c6e0df.js.map": "/portfolio/static/js/main.60c6e0df.js.map",
+    "main.6d250153.css.map": "/portfolio/static/css/main.6d250153.css.map",
+    "main.d473af40.js.map": "/portfolio/static/js/main.d473af40.js.map",
     "787.ae0d8d37.chunk.js.map": "/portfolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcae2705.css",
-    "static/js/main.60c6e0df.js"
+    "static/css/main.6d250153.css",
+    "static/js/main.d473af40.js"
   ]
 }
