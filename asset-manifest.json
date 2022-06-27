@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f552e5bf.css",
-    "main.js": "/portfolio/static/js/main.b426f31f.js",
+    "main.css": "/portfolio/static/css/main.fcae2705.css",
+    "main.js": "/portfolio/static/js/main.60c6e0df.js",
     "static/js/787.ae0d8d37.chunk.js": "/portfolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/applicant_1052589479_CV_1046912623.pdf": "/portfolio/static/media/applicant_1052589479_CV_1046912623.148ec28c566e399a3b10.pdf",
     "static/media/toyota2.PNG": "/portfolio/static/media/toyota2.5c0d196b43543411e65c.PNG",
@@ -28,8 +28,10 @@
     "static/media/ong10.png": "/portfolio/static/media/ong10.cb20c66bcd5cd3e09dbb.png",
     "static/media/emp2.PNG": "/portfolio/static/media/emp2.8ca04cbf472fb322cd5c.PNG",
     "static/media/dplace5.PNG": "/portfolio/static/media/dplace5.d9658ef5a53c6dda99ee.PNG",
+    "static/media/perfil.jpeg": "/portfolio/static/media/perfil.3b8c8e733bf0e5f19dfc.jpeg",
     "static/media/emp1.PNG": "/portfolio/static/media/emp1.007eed37e6e52c1e1d66.PNG",
     "static/media/dplace7.PNG": "/portfolio/static/media/dplace7.99d4c2fa5dc720753842.PNG",
+    "static/media/perfil2.jpeg": "/portfolio/static/media/perfil2.e06c0bd182a38ade5415.jpeg",
     "static/media/toyota.jpg": "/portfolio/static/media/toyota.bf824f6de7d30b55e7ce.jpg",
     "static/media/stripe.jpg": "/portfolio/static/media/stripe.d3e5ad61d30971dccf8b.jpg",
     "static/media/stripe3.PNG": "/portfolio/static/media/stripe3.e7a9018804411c081950.PNG",
@@ -50,12 +52,12 @@
     "static/media/tailwind.svg": "/portfolio/static/media/tailwind.91bbceb2f699f8793419eb792ad01542.svg",
     "static/media/firebase.svg": "/portfolio/static/media/firebase.a5244d305a614cd7e4b4aba169ec8820.svg",
     "index.html": "/portfolio/index.html",
-    "main.f552e5bf.css.map": "/portfolio/static/css/main.f552e5bf.css.map",
-    "main.b426f31f.js.map": "/portfolio/static/js/main.b426f31f.js.map",
+    "main.fcae2705.css.map": "/portfolio/static/css/main.fcae2705.css.map",
+    "main.60c6e0df.js.map": "/portfolio/static/js/main.60c6e0df.js.map",
     "787.ae0d8d37.chunk.js.map": "/portfolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f552e5bf.css",
-    "static/js/main.b426f31f.js"
+    "static/css/main.fcae2705.css",
+    "static/js/main.60c6e0df.js"
   ]
 }
