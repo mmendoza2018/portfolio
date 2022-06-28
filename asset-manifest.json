@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.caf58a3d.css",
-    "main.js": "/static/js/main.5b1b744f.js",
+    "main.js": "/static/js/main.1231676e.js",
     "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
     "static/media/applicant_1052589479_CV_1046912623.pdf": "/static/media/applicant_1052589479_CV_1046912623.148ec28c566e399a3b10.pdf",
     "static/media/CV-2022.pdf": "/static/media/CV-2022.af69f6e5ce52cdc83daa.pdf",
@@ -55,11 +55,11 @@
     "static/media/tailwind.svg": "/static/media/tailwind.91bbceb2f699f8793419eb792ad01542.svg",
     "static/media/firebase.svg": "/static/media/firebase.a5244d305a614cd7e4b4aba169ec8820.svg",
     "main.caf58a3d.css.map": "/static/css/main.caf58a3d.css.map",
-    "main.5b1b744f.js.map": "/static/js/main.5b1b744f.js.map",
+    "main.1231676e.js.map": "/static/js/main.1231676e.js.map",
     "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.caf58a3d.css",
-    "static/js/main.5b1b744f.js"
+    "static/js/main.1231676e.js"
   ]
 }
