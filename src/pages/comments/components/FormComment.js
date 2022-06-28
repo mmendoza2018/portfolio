@@ -19,7 +19,7 @@ const FormComment = ({activeAlert,closeModal}) => {
    const handleSubmit = async (e) => {
        e.preventDefault()
        if(!camposForm || !camposForm.nombre || !camposForm.comentario || !camposForm.startRadio) 
-       return activeAlert('Advertencia!', 'Todos los campos son requeridos', 'warning', 2000)
+       return activeAlert('Advertencia!', 'Todos los campos son requeridos', 'warning', 3000)
        let object = {
           calificacion: camposForm.startRadio,
           comentario: camposForm.comentario,
@@ -29,7 +29,7 @@ const FormComment = ({activeAlert,closeModal}) => {
         console.log('object', object)
       let resPost = await addData(db,object)
       if (resPost) {
-        activeAlert('Perfecto!', 'Tu comentario pronto sera aprobado', 'success', 2000)
+        activeAlert('Perfecto!', 'Tu comentario pronto sera aprobado', 'success', 4000)
         setCamposForm(defaultForm)
         closeModal();
       }else {
@@ -37,13 +37,22 @@ const FormComment = ({activeAlert,closeModal}) => {
       }
        
    }
+   const validateLength = (e) => {
+    if (e.target.value.length >134) {
+      activeAlert('Advertencia!', 'ingrese menos de 134 caracteres', 'warning', 3000)
+      e.target.value = e.target.value.slice(0, -1);
+      return;
+    }
+    
+    console.log(e.target.value);
+   }
   return (
     <div className='container-form-comment'>
     <form onSubmit={handleSubmit}>
       <label>Nombre Completo</label>
       <input type='text' className='' value={camposForm.nombre} name='nombre' onChange={handleForm}  placeholder=''/>
       <label>Comentario</label>
-      <textarea rows='2' name='comentario' value={camposForm.comentario} onChange={handleForm} >
+      <textarea rows='2' name='comentario' onInput={validateLength} value={camposForm.comentario} onChange={handleForm} >
       </textarea>
       <div className='container-starts'>
         <input type="radio" name="startRadio" defaultChecked value={"5"} onChange={handleForm} id="star-1"/>

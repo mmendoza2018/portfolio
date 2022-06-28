@@ -39,10 +39,10 @@ const Contact = ({activeAlert,closeModal}) => {
     .then(response => response.json())
     .then(data => {
         if (data.success === "true") {
-          activeAlert('Perfecto!',null, 'success', 2000)
+          activeAlert('Perfecto!',null, 'success', 3000)
           setCamposForm(defaultformContact)
         } else {
-          activeAlert('Error!', 'Vuelve a intentarlo', 'error', 2000)
+          activeAlert('Error!', 'Vuelve a intentarlo', 'error', 3000)
         }
     })
     .catch(error => console.log(error));
@@ -50,7 +50,7 @@ const Contact = ({activeAlert,closeModal}) => {
  }
   return (
     <section id="contact" className="container-general-contact">
-      <h2>Contactame 🙂</h2>
+      <h2>Contáctame 🙂</h2>
       <div className="container-contact">
         <div className="contact-media">
           <FontAwesomeIcon icon={faLinkedin} size="lg" />
