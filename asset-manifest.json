@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.caf58a3d.css",
-    "main.js": "/static/js/main.114665d3.js",
+    "main.js": "/static/js/main.ab49d50a.js",
     "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
     "static/media/applicant_1052589479_CV_1046912623.pdf": "/static/media/applicant_1052589479_CV_1046912623.148ec28c566e399a3b10.pdf",
     "static/media/CV-2022.pdf": "/static/media/CV-2022.af69f6e5ce52cdc83daa.pdf",
@@ -13,6 +13,7 @@
     "static/media/dplace6.PNG": "/static/media/dplace6.5eb91d2df07d9148faed.PNG",
     "static/media/stripe1.PNG": "/static/media/stripe1.463a2a178d4c311e09e3.PNG",
     "static/media/toyota7.PNG": "/static/media/toyota7.ad81cda3dc8e6eb62c07.PNG",
+    "static/media/portada-share.png": "/static/media/portada-share.74c481970d0a9804c6d8.png",
     "static/media/dplace1.PNG": "/static/media/dplace1.31a83189c104ef05c7c3.PNG",
     "static/media/wordpress.png": "/static/media/wordpress.276c2b7cd3c32e3584f6.png",
     "static/media/toyota5.png": "/static/media/toyota5.935d85b625fe470eba26.png",
@@ -54,11 +55,11 @@
     "static/media/tailwind.svg": "/static/media/tailwind.91bbceb2f699f8793419eb792ad01542.svg",
     "static/media/firebase.svg": "/static/media/firebase.a5244d305a614cd7e4b4aba169ec8820.svg",
     "main.caf58a3d.css.map": "/static/css/main.caf58a3d.css.map",
-    "main.114665d3.js.map": "/static/js/main.114665d3.js.map",
+    "main.ab49d50a.js.map": "/static/js/main.ab49d50a.js.map",
     "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.caf58a3d.css",
-    "static/js/main.114665d3.js"
+    "static/js/main.ab49d50a.js"
   ]
 }
