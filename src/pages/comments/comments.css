@@ -10,14 +10,14 @@
   position: relative;
   display:  grid;
   grid-template-columns: repeat(1, 1fr);
-  height: 65%;
+  height: 70%;
   overflow-y: auto;
   gap:.7rem;
   padding: .2rem;
 }
 .btn-comments {
   position: sticky;
-  width: 120px;
+  width: 45%;
   bottom: 0;
   left: 90%;
   background: rgba(255, 255, 255, 0.19);
@@ -44,6 +44,9 @@
   .container-general-comments {
     height: 40vh;
   }
+  .btn-comments {
+    width: 125px;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -65,5 +68,8 @@
   }
   .item-comments {
     min-width: 30%;
+  }
+  .btn-comments {
+    width: 125px;
   }
 }

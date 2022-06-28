@@ -12,7 +12,6 @@ let defaultForm = {
 const FormComment = ({activeAlert,closeModal}) => {
     let [camposForm, setCamposForm] = useState(defaultForm);
     const handleForm = (e) => {
-      console.log(e.target);
         setCamposForm({
             ...camposForm,[e.target.name]:e.target.value
         })
@@ -24,7 +23,8 @@ const FormComment = ({activeAlert,closeModal}) => {
        let object = {
           calificacion: camposForm.startRadio,
           comentario: camposForm.comentario,
-          nombres: camposForm.nombre
+          nombres: camposForm.nombre,
+          estado: false
         }
         console.log('object', object)
       let resPost = await addData(db,object)

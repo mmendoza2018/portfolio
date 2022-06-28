@@ -5,12 +5,49 @@ import {
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../components/button/Button";
 import "./contact.css";
-
-const Contact = () => {
-  const handlerForm = () => {};
+let defaultformContact = {
+  nombre:'',
+  correo:'',
+  descripcion:'',
+}
+const Contact = ({activeAlert,closeModal}) => {
+  let [camposForm, setCamposForm] = useState(defaultformContact);
+  const handleForm = (e) => {
+      setCamposForm({
+          ...camposForm,[e.target.name]:e.target.value
+      })
+  }
+ const handleSubmit = async (e) => {
+     e.preventDefault()
+     if(!camposForm || !camposForm.nombre || !camposForm.correo || !camposForm.descripcion) 
+     return activeAlert('Advertencia!', 'Todos los campos son requeridos', 'warning', 2000)
+      fetch("https://formsubmit.co/ajax/mendoza.ing1826@gmail.com", {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+            nombre: camposForm.nombre,
+            correo: camposForm.correo,
+            descripcion: camposForm.descripcion
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success === "true") {
+          activeAlert('Perfecto!',null, 'success', 2000)
+          setCamposForm(defaultformContact)
+        } else {
+          activeAlert('Error!', 'Vuelve a intentarlo', 'error', 2000)
+        }
+    })
+    .catch(error => console.log(error));
+     
+ }
   return (
     <section id="contact" className="container-general-contact">
       <h2>Contactame 🙂</h2>
@@ -22,14 +59,14 @@ const Contact = () => {
           <FontAwesomeIcon icon={faFacebook} size="lg" />
         </div>
         <div className="contact-form">
-          <form id="contac">
+          <form id="contac" onSubmit={handleSubmit}>
             <label>Nombres</label>
-            <input type="text" onChange={handlerForm} name="" />
+            <input type="text" value={camposForm.nombre} onChange={handleForm} name="nombre" />
             <label>Correo</label>
-            <input type="text" onChange={handlerForm} name="" />
+            <input type="text" value={camposForm.correo} onChange={handleForm} name="correo" />
             <label>Descripción</label>
-            <textarea type="text" onChange={handlerForm} name="" />
-            <Button description="Enviar" size="btn-sm" />
+            <textarea type="text" value={camposForm.descripcion} onChange={handleForm} name="descripcion" />
+            <Button description="Enviar" size="btn-sm" clickFunction={handleSubmit} />
           </form>
         </div>
       </div>

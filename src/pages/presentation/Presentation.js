@@ -1,19 +1,23 @@
 import React from "react";
 import Button from "../../components/button/Button";
+import ImgPerfil from '../../assets/img/perfil2.jpeg';
 import "./presentation.css";
+import cv from '../../assets/CV-2022.pdf';
 
 const Presentation = () => {
   return (
     <section className="container-presentation" id="home">
       <div className="item-presentation">
         <figure>
-          <img src="https://www.rastrolab.com/wp-content/uploads/guy-headshot-business_result.webp" alt="hola"></img>
+          <img src={ImgPerfil} alt="Miguel Mendoza"></img>
         </figure>
       </div>
       <div className="item-presentation">
         <h1>Miguel Mendoza</h1>
         <h3>Front-End Developer</h3>
-        <Button description={"Contactame"} size="btn-lg"/>
+        <a href={cv} download>
+        <Button description={"Descargar CV"} size="btn-lg"/>
+        </a>
       </div>
     </section>
   );

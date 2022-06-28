@@ -21,7 +21,10 @@ const Comments = ({openModal1}) => {
     <section className='container-general-comments' id='comments'>
     <h2>Recomendaciones</h2>
     <div className='container-comments'>
-      {data.map((e,index)=> <Card key={index} comment={e.comentario} name={e.nombres} starsDb ={e.calificacion}/> )}
+    {data.map((e,index) => {
+      if(e.estado) return <Card key={index} comment={e.comentario} name={e.nombres} starsDb ={e.calificacion}/> 
+      })
+      }
     </div>
     <button type='button' className='btn-comments' onClick={openModal1}>
     <FontAwesomeIcon icon={faCommentDots} color='white' size='lg'/>

@@ -268,7 +268,7 @@ const Index = () => {
           <About />
           <Skill />
           <Comments openModal1={openModal1} />
-          <Contact activeAlert={activeAlert} />
+          <Contact activeAlert={activeAlert} closeModal={closeModal3} />
         </main>
       </div>
       <Sidebar />

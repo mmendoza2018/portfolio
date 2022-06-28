@@ -42,7 +42,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   .container-modal .modal-content {
-    width: 30%;
+    width: 25%;
   }
   .container-modal .modal-content.modal-lg {
     width: 70%;

@@ -52,17 +52,15 @@
 .item-presentation {
   text-align: center;
 }
-.item-presentation {
-  
-}
 .item-presentation h1 {
   color: var(--white);
+  margin-bottom: .2rem;
   font-size: 7vw;
   font-family: "Poppins-Bold";
 }
 .item-presentation h3 {
   color: var(--grey-primary);
-  font-size: 4vw;
+  font-size: 5vw;
   font-family: "Poppins-Medium";
 }
 @media (min-width: 576px) { 
@@ -81,7 +79,7 @@
   }
   .item-presentation figure img {
     max-width: 25vw;
-    height: 25vw;
+    height: auto;
   }
   .item-presentation {
     width: 50%;
@@ -89,8 +87,9 @@
   /* textos */
   .item-presentation h1 {
     color: var(--white);
-    font-size: 3vw;
+    font-size: 3.2vw;
     font-family: "Poppins-Bold";
+    margin-bottom: .3rem;
   }
   .item-presentation h3 {
     color: var(--grey-primary);
@@ -99,11 +98,6 @@
   }
   /* fin textos */
  }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-}
 
 
 
