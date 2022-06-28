@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import "./about.css";
 import Article from "./components/Article";
 
@@ -24,7 +22,7 @@ const About = () => {
           <h3>Estudios</h3>
           <Article>
             <ul>
-              <li>Universidad Nestor Caceres Velazques - Ing. de sistemas.</li>
+              <li>Universidad Nestor Caceres Velazquez - Ing. de sistemas.</li>
             </ul>
           </Article>
           <h3>Certificaciones</h3>
@@ -54,8 +52,8 @@ const About = () => {
             <h5>React developer</h5>
             <h6>Conovatec, Lima Perú</h6>
             <ul>
-              <li>Maquetacion de plantillas.</li>
-              <li>Desarrollo y estructuracion del equipo de Front-end.</li>
+              <li>Maquetación de plantillas.</li>
+              <li>Desarrollo y estructuración del equipo de Front-end.</li>
               <li>Testing de las funcionalidades generales.</li>
             </ul>
           </Article>
@@ -63,10 +61,10 @@ const About = () => {
             <h5>full-Stack Developer</h5>
             <h6>Dplace, Santiago Chile</h6>
             <ul>
-              <li>Analista de requerientos generales del software.</li>
+              <li>Analista de requerimientos generales del software.</li>
               <li>Diseño y maquetado de las vistas generales del proyecto</li>
               <li>
-                implementacion de funcionamiento general y subida del proyecto a
+                implementación de funcionamiento general y subida del proyecto a
                 la nube.
               </li>
             </ul>

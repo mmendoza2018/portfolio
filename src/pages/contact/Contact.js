@@ -53,10 +53,18 @@ const Contact = ({activeAlert,closeModal}) => {
       <h2>Contáctame 🙂</h2>
       <div className="container-contact">
         <div className="contact-media">
-          <FontAwesomeIcon icon={faLinkedin} size="lg" />
-          <FontAwesomeIcon icon={faGithub} size="lg" />
-          <FontAwesomeIcon icon={faGoogle} size="lg" />
-          <FontAwesomeIcon icon={faFacebook} size="lg" />
+          <a href="https://www.linkedin.com/in/miguelmendozape/" rel="noreferrer" target='_blank'>
+            <FontAwesomeIcon icon={faLinkedin} size="lg" />
+          </a>
+          <a href="https://github.com/mmendoza2018" rel="noreferrer" target='_blank'>
+            <FontAwesomeIcon icon={faGithub} size="lg" />
+          </a>
+          <a href="mailto:mendoza.ing1826@gmail.com" rel="noreferrer" target='_blank'>
+            <FontAwesomeIcon icon={faGoogle} size="lg" />
+          </a>
+          <a href="https://m.me/LuisMiguelMendozaAQP" rel="noreferrer" target='_blank'>
+            <FontAwesomeIcon icon={faFacebook} size="lg" />
+          </a>
         </div>
         <div className="contact-form">
           <form id="contac" onSubmit={handleSubmit}>
