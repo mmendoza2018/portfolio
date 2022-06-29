@@ -7,7 +7,7 @@ Configuracion inicial
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: "Poppins-Light";
+  font-family: "Roboto light";
 }
 ::after,
 ::before {
@@ -28,26 +28,26 @@ body {
   --white: #ffff;
 }
 @font-face {
-  font-family: "Poppins Regular";
-  src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: "Poppins light";
-  src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-family: "Roboto light";
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: "Poppins Medium";
-  src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-family: "Roboto Medium";
+  src: url("../fonts/Roboto/Roboto-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-  font-family: "Poppins bold";
-  src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-family: "Roboto bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -110,10 +110,10 @@ div[data-tilt="true"] {
   line-height: 0 !important;
 }
 h1, h2, h3, h4, h5 {
-  font-family: 'Poppins-Bold';
+  font-family: 'Roboto-Bold';
 }
 p, small, li, ul, b, span,label,input {
-  font-family: 'Poppins-Regular';
+  font-family: 'Roboto-Regular';
 }
 section {
   min-height: 97vh;

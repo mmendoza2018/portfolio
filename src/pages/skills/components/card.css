@@ -11,9 +11,10 @@
 .item-skills figure h4 {
   margin: .5rem;
   color: var(--grey-primary);
+  white-space: nowrap;
 }
 .item-skills figure img{
-  width: 4em;
+  width: 3.8em;
   height: 64px;
   /* border: 1px solid white; */
 }
