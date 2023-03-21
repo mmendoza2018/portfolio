@@ -44,6 +44,7 @@
 }
 .contact-form textarea {
   height: 3rem;
+  resize: none;
 }
 /* end form */
 

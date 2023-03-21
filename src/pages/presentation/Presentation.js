@@ -14,7 +14,7 @@ const Presentation = () => {
       </div>
       <div className="item-presentation">
         <h1>Miguel Mendoza</h1>
-        <h3>Front-End Developer</h3>
+        <h3>Full-Stack Developer</h3>
         <a href={cv} download>
         <Button description={"Descargar CV"} size="btn-lg"/>
         </a>

@@ -73,6 +73,7 @@ const Portfolio = ({ openModal3, renderContentModal }) => {
           renderContentModal={renderContentModal}
            id={3}
         />
+        
         {showMore ? (
           <Card
             srcImg={gyt}

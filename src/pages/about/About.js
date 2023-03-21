@@ -11,7 +11,7 @@ const About = () => {
           <h3>Mi Resumen</h3>
           <Article>
             <p>
-              Soy desarrollador de aplicaciones web con mas de 1 año de experiencia, implementando paginas y sistemas web.
+              Soy desarrollador de aplicaciones web con mas de 2 años de experiencia, implementando páginas y sistemas web.
               Autodidacta, apasionado por la tecnología.
             </p>
             <ul>
@@ -31,6 +31,7 @@ const About = () => {
               <li>Certificado-java Script moderno (Udemy)</li>
               <li>Certificado-Scrum fundamental (SCRUMstudy)</li>
               <li>Certificado-React (Udemy)</li>
+              <li>Certificado Node Expert (Udemy)</li>
             </ul>
           </Article>
         </div>
@@ -59,7 +60,7 @@ const About = () => {
           </Article>
           <Article>
             <h5>full-Stack Developer</h5>
-            <h6>Dplace, Santiago Chile</h6>
+            <h6>GYT empresarial, Arequipa Péru</h6>
             <ul>
               <li>Analista de requerimientos generales del software.</li>
               <li>Diseño y maquetado de las vistas generales del proyecto</li>
