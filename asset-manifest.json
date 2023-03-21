@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa73b099.css",
-    "main.js": "/static/js/main.8e1aa845.js",
+    "main.css": "/static/css/main.2038f9e2.css",
+    "main.js": "/static/js/main.d9989596.js",
     "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
     "static/media/applicant_1052589479_CV_1046912623.pdf": "/static/media/applicant_1052589479_CV_1046912623.148ec28c566e399a3b10.pdf",
     "static/media/toyota2.PNG": "/static/media/toyota2.5c0d196b43543411e65c.PNG",
@@ -9,7 +9,7 @@
     "static/media/cr2.PNG": "/static/media/cr2.77e235675f84f8cf37dc.PNG",
     "static/media/ong5.png": "/static/media/ong5.6e92565bb41a97236362.png",
     "static/media/cr1.PNG": "/static/media/cr1.7120346e3722f088cffa.PNG",
-    "static/media/CV-2022.pdf": "/static/media/CV-2022.19c0e13055b11a97d9bb.pdf",
+    "static/media/CV-2022.pdf": "/static/media/CV-2022.f768ccacffa519f34056.pdf",
     "static/media/dplace6.PNG": "/static/media/dplace6.5eb91d2df07d9148faed.PNG",
     "static/media/stripe1.PNG": "/static/media/stripe1.463a2a178d4c311e09e3.PNG",
     "static/media/toyota7.PNG": "/static/media/toyota7.ad81cda3dc8e6eb62c07.PNG",
@@ -54,12 +54,12 @@
     "index.html": "/index.html",
     "static/media/tailwind.svg": "/static/media/tailwind.91bbceb2f699f8793419eb792ad01542.svg",
     "static/media/firebase.svg": "/static/media/firebase.a5244d305a614cd7e4b4aba169ec8820.svg",
-    "main.fa73b099.css.map": "/static/css/main.fa73b099.css.map",
-    "main.8e1aa845.js.map": "/static/js/main.8e1aa845.js.map",
+    "main.2038f9e2.css.map": "/static/css/main.2038f9e2.css.map",
+    "main.d9989596.js.map": "/static/js/main.d9989596.js.map",
     "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa73b099.css",
-    "static/js/main.8e1aa845.js"
+    "static/css/main.2038f9e2.css",
+    "static/js/main.d9989596.js"
   ]
 }
