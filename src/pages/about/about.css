@@ -12,6 +12,10 @@
 .item-about {
   color: var(--grey-primary);
 }
+.span-important {
+  font-weight: bold;
+  color: white;
+}
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   .container-about {

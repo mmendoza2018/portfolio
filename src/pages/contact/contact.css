@@ -30,7 +30,7 @@
 .contact-form textarea {
   width: 100%;
   margin: .3rem 0;
-  padding: 0;
+  padding: 3px 5px;
   background: rgba(196, 196, 196, 0.237);
   outline: none;
   border: none;

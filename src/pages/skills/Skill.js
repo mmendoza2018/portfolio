@@ -1,6 +1,6 @@
 import React from 'react'
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
-import { faCss3,faHtml5,faReact,faBootstrap,faGithub,faPhp, faNodeJs } from "@fortawesome/free-brands-svg-icons";
+import { faCss3,faHtml5,faReact,faBootstrap,faGithub,faPhp, faNodeJs, faDocker } from "@fortawesome/free-brands-svg-icons";
 
 import Card from './components/Card'
 import firebase from '../../assets/img/firebase.svg';
@@ -22,7 +22,7 @@ const Skill = () => {
     <Card srcIcon={tailwind} bgColor={null} description={'Tailwind'}/>
     <Card srcIcon={faGithub} bgColor={'#333'} description={'Git/GitHub'}/>
     <Card srcIcon={firebase} bgColor={null} description={'Firebase'}/>
-    <Card srcIcon={jest} bgColor={null} description={'Jest'}/>
+    <Card srcIcon={faDocker} bgColor={'#2965f1'} description={'Docker'}/>
     <Card srcIcon={faPhp} bgColor={'#787CB5'} description={'Php'}/>
     <Card srcIcon={faDatabase} bgColor={'#F29111'} description={'Mysql'}/>
     </div>

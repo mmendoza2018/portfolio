@@ -159,16 +159,6 @@ const Index = () => {
         icon: faGithub,
         boxIcon: false,
       },
-      {
-        descripcion: "Php",
-        icon: faPhp,
-        boxIcon: false,
-      },
-      {
-        descripcion: "Mysql",
-        icon: faDatabase,
-        boxIcon: false,
-      },
     ],
     [
       {

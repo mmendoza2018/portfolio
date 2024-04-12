@@ -11,8 +11,7 @@ const About = () => {
           <h3>Mi Resumen</h3>
           <Article>
             <p>
-              Soy desarrollador de aplicaciones web con mas de 2 años de experiencia, implementando páginas y sistemas web.
-              Autodidacta, apasionado por la tecnología.
+              Soy desarrollador de aplicaciones web con mas de <span className="span-important"> 2 años de experiencia</span>, implementando páginas y sistemas web. Autodidacta, apasionado por la tecnología.
             </p>
             <ul>
               <li>Arequipa, Perú</li>
@@ -22,14 +21,15 @@ const About = () => {
           <h3>Estudios</h3>
           <Article>
             <ul>
-              <li>Universidad Nestor Caceres Velazquez - Ing. de sistemas.</li>
+              <li>Bachiller en Ingenieria de sistemas - UANCV</li>
+              <li>Estudiante ingles B5 - UNSA</li>
             </ul>
           </Article>
           <h3>Certificaciones</h3>
           <Article>
             <ul>
               <li>Certificado-java Script moderno (Udemy)</li>
-              <li>Certificado-Scrum fundamental (SCRUMstudy)</li>
+              <li>Certificado-Scrum fundamental (Scrum Study)</li>
               <li>Certificado-React (Udemy)</li>
               <li>Certificado Node Expert (Udemy)</li>
             </ul>

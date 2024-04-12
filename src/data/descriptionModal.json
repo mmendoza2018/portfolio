@@ -43,6 +43,26 @@
       ]
     },
     {
+      "imagen":"logo-cluster.jpeg",
+      "titulo":"Maquetación y customización de componentes en shopify",
+      "lista": [
+        "Creación de componentes",
+        "Integracion de Github para el proceso de desarrollo",
+        "Implementación de librerias externas",
+        "Customización de plantillas."
+      ]
+    },
+    {
+      "imagen":"logo-paita.png",
+      "titulo":"Desarrollo de sistema para el control interno.",
+      "lista": [
+        "Desarrollo y codificación con la arquitectura MVC",
+        "Despliegue del sistema en la nube",
+        "Integración con api-migo para la consulta de usuarios",
+        "Manejo de git y Github."
+      ]
+    },
+    {
       "imagen":"ongDetalle3.PNG",
       "titulo":"Sistema ERP, gestión de equipos y usuarios",
       "lista": [

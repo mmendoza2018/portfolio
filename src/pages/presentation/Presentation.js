@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../../components/button/Button";
 import ImgPerfil from '../../assets/img/perfil2.jpeg';
 import "./presentation.css";
-import cv from '../../assets/CV-2022.pdf';
+import cv from '../../assets/CV.pdf';
 
 const Presentation = () => {
   return (

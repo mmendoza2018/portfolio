@@ -6,6 +6,8 @@ import stripe from "../../assets/img/stripe.jpg";
 import ong from "../../assets/img/ong5.png";
 import conovatec from "../../assets/img/conovatec.jpg";
 import gyt from "../../assets/img/emp.PNG";
+import cluster from "../../assets/img/logo-cluster.jpeg";
+import paita from "../../assets/img/logo-paita.png";
 import "./portfolio.css";
 import Button from "../../components/button/Button";
 
@@ -47,31 +49,45 @@ const Portfolio = ({ openModal3, renderContentModal }) => {
       <div className="container-portfolio">
         <Card
           srcImg={conovatec}
-          altImg={"imagen xd"}
+          altImg={"Portafolio | Miguel Mendoza"}
           clickFunction={openModal3}
           renderContentModal={renderContentModal}
           id={0}
         />
         <Card
           srcImg={wordpress}
-          altImg={"imagen xd"}
+          altImg={"Portafolio | Miguel Mendoza"}
           clickFunction={openModal3}
           renderContentModal={renderContentModal}
            id={1}
         />
         <Card
           srcImg={dplace}
-          altImg={"imagen xd"}
+          altImg={"Portafolio | Miguel Mendoza"}
           clickFunction={openModal3}
           renderContentModal={renderContentModal}
            id={2}
         />
         <Card
           srcImg={stripe}
-          altImg={"imagen xd"}
+          altImg={"Portafolio | Miguel Mendoza"}
           clickFunction={openModal3}
           renderContentModal={renderContentModal}
            id={3}
+        />
+        <Card
+          srcImg={cluster}
+          altImg={"Portafolio | Miguel Mendoza"}
+          clickFunction={openModal3}
+          renderContentModal={renderContentModal}
+           id={4}
+        />
+        <Card
+          srcImg={paita}
+          altImg={"Portafolio | Miguel Mendoza"}
+          clickFunction={openModal3}
+          renderContentModal={renderContentModal}
+           id={5}
         />
         
         {showMore ? (
@@ -80,7 +96,7 @@ const Portfolio = ({ openModal3, renderContentModal }) => {
             altImg={"imagen xd"}
             clickFunction={openModal3}
             renderContentModal={renderContentModal}
-             id={4}
+             id={6}
           />
         ) : (
           ""
@@ -91,7 +107,7 @@ const Portfolio = ({ openModal3, renderContentModal }) => {
             altImg={"imagen xd"}
             clickFunction={openModal3}
             renderContentModal={renderContentModal}
-             id={5}
+             id={7}
           />
         ) : (
           ""
